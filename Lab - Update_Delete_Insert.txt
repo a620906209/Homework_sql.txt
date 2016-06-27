@@ -1,5 +1,5 @@
-/* 110 
-  ½Ğ¼g¤@¹D Query ·s¼W¤@µ§¹B¿é¤½¥qªº¸ê®Æ¨ì Shippers table
+ï»¿/* 110 
+  è«‹å¯«ä¸€é“ Query æ–°å¢ä¸€ç­†é‹è¼¸å…¬å¸çš„è³‡æ–™åˆ° Shippers table
   ShipperID: 4
   CompanyName: Never Lose
   Phone: (040) 0048126
@@ -10,8 +10,8 @@ insert into Shippers
 
 
 /* 120 
-  ½Ğ¼g¤@¹D Query, ±N­è¤~¨ºµ§ Never Lose ªº¤½¥q¦WºÙ(CompanyName)§ï¦¨
-  'Never Lost', ¹q¸Ü(Phone)§ï¦¨'(123) 1234567', 
+  è«‹å¯«ä¸€é“ Query, å°‡å‰›æ‰é‚£ç­† Never Lose çš„å…¬å¸åç¨±(CompanyName)æ”¹æˆ
+  'Never Lost', é›»è©±(Phone)æ”¹æˆ'(123) 1234567', 
  */ 
 Update Shippers
   set CompanyName = 'Never Lost', 
@@ -20,8 +20,8 @@ Update Shippers
 
 
 /* 130
-  ½Ğ¼g¤@¹D Query, ±N²£«~Ãş§O(CategoryID) = 1 ªº²£«~¸ê®Æ(products) 
-  ªº³æ»ù(UnitPrice)½Õ°ª¦Ê¤À¤§ 5, ¨ä¾lÃş§O¤£ÅÜ
+  è«‹å¯«ä¸€é“ Query, å°‡ç”¢å“é¡åˆ¥(CategoryID) = 1 çš„ç”¢å“è³‡æ–™(products) 
+  çš„å–®åƒ¹(UnitPrice)èª¿é«˜ç™¾åˆ†ä¹‹ 5, å…¶é¤˜é¡åˆ¥ä¸è®Š
  */ 
 update products
   set UnitPrice = UnitPrice * 1.05
@@ -29,8 +29,8 @@ update products
 
 
 /* 140
-  ¹ï¤£°_, ¤£¤p¤ßÁ¿¿ù¤F, ¤£¬O²£«~Ãş§O(CategoryID) = 1 °Õ..., ¤°»ò!?
-  §A¤w¸g§ï¤F...., hmmm..., ¥i¥H³Â·Ğ½Ğ§A§ï¦^¨Ó¶Ü?
+  å°ä¸èµ·, ä¸å°å¿ƒè¬›éŒ¯äº†, ä¸æ˜¯ç”¢å“é¡åˆ¥(CategoryID) = 1 å•¦..., ä»€éº¼!?
+  ä½ å·²ç¶“æ”¹äº†...., hmmm..., å¯ä»¥éº»ç…©è«‹ä½ æ”¹å›ä¾†å—?
  */ 
 update products
   set UnitPrice = UnitPrice / 1.05
@@ -38,7 +38,7 @@ update products
 
 
 /* 150 
-  ½Ğ¼g¤@¹D Query §R°£­è¤~¨ºµ§ Never Lost ¹B¿é¤½¥qªº¸ê®Æ
+  è«‹å¯«ä¸€é“ Query åˆªé™¤å‰›æ‰é‚£ç­† Never Lost é‹è¼¸å…¬å¸çš„è³‡æ–™
  */ 
 delete from  Shippers
   where ShipperID = 4

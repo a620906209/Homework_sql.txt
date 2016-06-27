@@ -1,19 +1,19 @@
-/* 010 
-  ½T©w¥´¶}ªº¬O Northwind ¸ê®Æ®w */
+ï»¿/* 010 
+  ç¢ºå®šæ‰“é–‹çš„æ˜¯ Northwind è³‡æ–™åº« */
 use Northwind;
 
 /* 110 
-  ½Ğ¼g¤@¹D Query ¦C¥X:
-  products table ¤¤ªº©Ò¦³²£«~¸ê®Æ
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º:
+  products table ä¸­çš„æ‰€æœ‰ç”¢å“è³‡æ–™
  */ 
 
 select * from products
 
 
 /* 120 
-  ½Ğ¼g¤@¹D Query ¦C¥X:
-  products table ©Ò¦³²£«~, ±ø¦C¸ê®Æ®É, 
-  ½Ğ¦C¥X¥H¤UÄæ¦ì
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º:
+  products table æ‰€æœ‰ç”¢å“, æ¢åˆ—è³‡æ–™æ™‚, 
+  è«‹åˆ—å‡ºä»¥ä¸‹æ¬„ä½
   ProductID, ProductName, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLevel
  */ 
 
@@ -22,9 +22,9 @@ select ProductID, ProductName, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLev
 
 
 /* 130 
-  ½Ğ¼g¤@¹D Query ¦C¥X:
-  products table ®w¦s¶q§C©ó¦A­qÁÊ¶qªº²£«~¸ê®Æ, ±ø¦C¸ê®Æ®É, 
-  ½Ğ¦C¥X¥H¤UÄæ¦ì
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º:
+  products table åº«å­˜é‡ä½æ–¼å†è¨‚è³¼é‡çš„ç”¢å“è³‡æ–™, æ¢åˆ—è³‡æ–™æ™‚, 
+  è«‹åˆ—å‡ºä»¥ä¸‹æ¬„ä½
   ProductID, ProductName, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLevel
  */ 
 
@@ -35,9 +35,9 @@ select ProductID, ProductName, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLev
 
 
 /* 140 
-  ½Ğ¼g¤@¹D Query ¦C¥X:
-  products table (®w¦s¶q + ­qÁÊ¤¤¼Æ¶q)§C©ó¦A­qÁÊ¶qªº²£«~¸ê®Æ, ±ø¦C¸ê®Æ®É, 
-  ½Ğ¦C¥X¥H¤UÄæ¦ì
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º:
+  products table (åº«å­˜é‡ + è¨‚è³¼ä¸­æ•¸é‡)ä½æ–¼å†è¨‚è³¼é‡çš„ç”¢å“è³‡æ–™, æ¢åˆ—è³‡æ–™æ™‚, 
+  è«‹åˆ—å‡ºä»¥ä¸‹æ¬„ä½
   ProductID, ProductName, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLevel
  */ 
 
@@ -47,11 +47,11 @@ select ProductID, ProductName, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLev
 
 
 /* 150 
-  ½Ğ¼g¤@¹D Query ¦C¥X:
-  products table ®w¦s¶q§C©ó¦A­qÁÊ¶qªº²£«~¸ê®Æ, ±ø¦C¸ê®Æ®É, 
-  ½Ğ¦C¥X¥H¤UÄæ¦ì
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º:
+  products table åº«å­˜é‡ä½æ–¼å†è¨‚è³¼é‡çš„ç”¢å“è³‡æ–™, æ¢åˆ—è³‡æ–™æ™‚, 
+  è«‹åˆ—å‡ºä»¥ä¸‹æ¬„ä½
   SupplierID, ProductID, ProductName, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLevel
-  ¨Ã¥B, ¬Û¦P¨ÑÀ³°Ó¥N¸¹(SupplierID)ªº²£«~½Ğ±Æ¦b¤@°_
+  ä¸¦ä¸”, ç›¸åŒä¾›æ‡‰å•†ä»£è™Ÿ(SupplierID)çš„ç”¢å“è«‹æ’åœ¨ä¸€èµ·
  */ 
 
 select SupplierID, ProductID, ProductName, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLevel
@@ -61,8 +61,8 @@ select SupplierID, ProductID, ProductName, UnitPrice, UnitsInStock, UnitsOnOrder
 
 
 /* 160 
-  ½Ğ¼g¤@¹D Query ¦C¥X:
-  products table ²£«~¦WºÙ¥H c ¶}ÀYªº¸ê®Æ
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º:
+  products table ç”¢å“åç¨±ä»¥ c é–‹é ­çš„è³‡æ–™
  */ 
 
 select *
@@ -71,9 +71,9 @@ select *
 
 
 /* 170 
-  ½Ğ¼g¤@¹D Query ¦C¥X:
-  products table Ãş§O½s¸¹(CategoryID)¬° 1, 4, 8 ªº²£«~¸ê®Æ
-  ±Æ§Ç®É, ½Ğ«ö"Ãş§O½s¸¹"±Æ§Ç, ¬Û¦PÃş§O½s¸¹ªº²£«~«ö²£«~¦WºÙ(ProductName)±Æ¦C
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º:
+  products table é¡åˆ¥ç·¨è™Ÿ(CategoryID)ç‚º 1, 4, 8 çš„ç”¢å“è³‡æ–™
+  æ’åºæ™‚, è«‹æŒ‰"é¡åˆ¥ç·¨è™Ÿ"æ’åº, ç›¸åŒé¡åˆ¥ç·¨è™Ÿçš„ç”¢å“æŒ‰ç”¢å“åç¨±(ProductName)æ’åˆ—
  */ 
 
 select *
@@ -83,9 +83,9 @@ select *
 
 
 /* 180 
-  ½Ğ¼g¤@¹D Query ¦C¥X:
-  products table ³æ»ù¤¶©ó 10 ¨ì 20 ¤¸¤§¶¡(¥]§t 10, 20)ªº²£«~¸ê®Æ
-  ¨Ã¥B«ö·Ó³æ»ù(UnitPrice)¥Ñ¤j¨ì¤p±Æ§Ç
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º:
+  products table å–®åƒ¹ä»‹æ–¼ 10 åˆ° 20 å…ƒä¹‹é–“(åŒ…å« 10, 20)çš„ç”¢å“è³‡æ–™
+  ä¸¦ä¸”æŒ‰ç…§å–®åƒ¹(UnitPrice)ç”±å¤§åˆ°å°æ’åº
  */ 
 
 select *
@@ -94,7 +94,7 @@ select *
   order by UnitPrice desc
 
 /* 190
-  ½Ğ¼g¤@¹D Query ¦C¥X: ¶Ç¯u¹q¸Ü(fax)¬O¡uªÅ¥Õ¡vªº¨ÑÀ³°Ó(suppliers)¤½¥q¦WºÙ
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º: å‚³çœŸé›»è©±(fax)æ˜¯ã€Œç©ºç™½ã€çš„ä¾›æ‡‰å•†(suppliers)å…¬å¸åç¨±
 */
 
 SELECT companyname, fax
@@ -103,20 +103,20 @@ SELECT companyname, fax
 
 
 /* 210 
-  ½Ğ¼g¤@¹D Query ¦C¥X:
-  products table ©Ò¦³²£«~, ±ø¦C¸ê®Æ®É, 
-  ½Ğ¦C¥X¥H¤UÄæ¦ì
-  ProductID, ProductName, UnitPrice, ¤£¹L, ¦UÄæ¦ì¦WºÙ½Ğ¥Î¤¤¤åÅã¥Ü
-  ²£«~½s¸¹, ²£«~¦WºÙ, ³æ»ù
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º:
+  products table æ‰€æœ‰ç”¢å“, æ¢åˆ—è³‡æ–™æ™‚, 
+  è«‹åˆ—å‡ºä»¥ä¸‹æ¬„ä½
+  ProductID, ProductName, UnitPrice, ä¸é, å„æ¬„ä½åç¨±è«‹ç”¨ä¸­æ–‡é¡¯ç¤º
+  ç”¢å“ç·¨è™Ÿ, ç”¢å“åç¨±, å–®åƒ¹
  */ 
 
-select ProductID as `²£«~½s¸¹`, ProductName as `²£«~¦WºÙ`, UnitPrice as `³æ»ù`, 
+select ProductID as `ç”¢å“ç·¨è™Ÿ`, ProductName as `ç”¢å“åç¨±`, UnitPrice as `å–®åƒ¹`, 
   (UnitPrice * UnitsInStock) as StockCost
   from products
 
 
 /* 220 
-  ½Ğ¬d suppliers ¸ê®Æªí, ¨ÑÀ³°Ó¨Ó¦Û­ş¨Ç°ê®a? (¬Û¦Pªº°ê¦W, ¥u¦C¤@µ§§Y¥i)
+  è«‹æŸ¥ suppliers è³‡æ–™è¡¨, ä¾›æ‡‰å•†ä¾†è‡ªå“ªäº›åœ‹å®¶? (ç›¸åŒçš„åœ‹å, åªåˆ—ä¸€ç­†å³å¯)
  */ 
 
 SELECT DISTINCT country
@@ -125,7 +125,7 @@ SELECT DISTINCT country
 
 
 /* 220 
-  ½Ğ¦C¥X UnitPrice ³Ì¶Qªº«e¤T¶µ²£«~ (products)
+  è«‹åˆ—å‡º UnitPrice æœ€è²´çš„å‰ä¸‰é …ç”¢å“ (products)
  */ 
 
 select productID, ProductName, UnitPrice 
@@ -134,7 +134,7 @@ select productID, ProductName, UnitPrice
   limit 3;
 
 /* 230 
-  ¬°¤°»ò¤U¦Cªº«ü¥O¶Ç¦^ªÅ¶°¦X?
+  ç‚ºä»€éº¼ä¸‹åˆ—çš„æŒ‡ä»¤å‚³å›ç©ºé›†åˆ?
  */ 
 
 select *
@@ -142,18 +142,18 @@ select *
   where ProductName Like binary 'c%'
 
 /* 310
-  «ö·Ó­û¤u¸ê®Æªí(employees)ªº¤º®e, ½Ğ¬d¥X¤@¦@¦³´X¦ì­û¤u?
+  æŒ‰ç…§å“¡å·¥è³‡æ–™è¡¨(employees)çš„å…§å®¹, è«‹æŸ¥å‡ºä¸€å…±æœ‰å¹¾ä½å“¡å·¥?
  */
 SELECT COUNT(*) FROM employees
 
 
 /* 320
-  «ö·Ó­û¤u¸ê®Æªí(employees)ªº¤º®e, ReportsTo¦³¸ê®Æªº°O¿ı¤@¦@´Xµ§?
+  æŒ‰ç…§å“¡å·¥è³‡æ–™è¡¨(employees)çš„å…§å®¹, ReportsToæœ‰è³‡æ–™çš„è¨˜éŒ„ä¸€å…±å¹¾ç­†?
  */
 SELECT COUNT(reportsto) FROM employees
 
 /* 330
-  ¤U¦Cªº«ü¥O, ½Ğ°İ¿ù¤F¶Ü?
+  ä¸‹åˆ—çš„æŒ‡ä»¤, è«‹å•éŒ¯äº†å—?
  */
 
 select categoryID, productID, AVG(UnitPrice)
@@ -162,8 +162,8 @@ select categoryID, productID, AVG(UnitPrice)
 
 
 /* 340
-  categoryID ¬O²£«~Ãş§Oªº¥N¸¹, ½Ğ²Î­p¦UÃş²£«~(products)ªº®w¦s¦¨¥»?
-  ®w¦s¦¨¥»½Ğª½±µ¥H: ®w¦s¶q * µP»ù (UnitsInStock * UnitPrice) ­pºâ§Y¥i.
+  categoryID æ˜¯ç”¢å“é¡åˆ¥çš„ä»£è™Ÿ, è«‹çµ±è¨ˆå„é¡ç”¢å“(products)çš„åº«å­˜æˆæœ¬?
+  åº«å­˜æˆæœ¬è«‹ç›´æ¥ä»¥: åº«å­˜é‡ * ç‰Œåƒ¹ (UnitsInStock * UnitPrice) è¨ˆç®—å³å¯.
  */
 
 select categoryID, Sum(UnitsInStock * UnitPrice)
@@ -171,7 +171,7 @@ select categoryID, Sum(UnitsInStock * UnitPrice)
   group by categoryID;
 
 /* 350
-  ¦P¤W, ¦ı®w¦s¦¨¥»¶W¹L 12000 ¤~­n¦C¥X.
+  åŒä¸Š, ä½†åº«å­˜æˆæœ¬è¶…é 12000 æ‰è¦åˆ—å‡º.
  */
 
 select categoryID, Sum(UnitsInStock * UnitPrice)
@@ -180,8 +180,8 @@ select categoryID, Sum(UnitsInStock * UnitPrice)
   having Sum(UnitsInStock * UnitPrice) > 12000
 
 /* 360
-  ½Ğ±q order details ²Î­p¦U¶µ²£«~¾P°âÁ`©M, ¨Ã¥B¤@¨Ö¦C¥X
-  ¸Ó²£«~ªº¾P°â©ú²Ó.
+  è«‹å¾ order details çµ±è¨ˆå„é …ç”¢å“éŠ·å”®ç¸½å’Œ, ä¸¦ä¸”ä¸€ä½µåˆ—å‡º
+  è©²ç”¢å“çš„éŠ·å”®æ˜ç´°.
  */
 
 SELECT productid, orderid, SUM(quantity) AS total_quantity
@@ -190,7 +190,7 @@ SELECT productid, orderid, SUM(quantity) AS total_quantity
  WITH ROLLUP
 
 /* 410
-  ½Ğ¼g¤@¹D Query ¦C¥X products ¸ê®Æªíªº¥H¤UÄæ¦ì
+  è«‹å¯«ä¸€é“ Query åˆ—å‡º products è³‡æ–™è¡¨çš„ä»¥ä¸‹æ¬„ä½
   ProductID, ProductName, SupplierID
  */ 
 
@@ -198,9 +198,9 @@ select ProductID, ProductName, SupplierID from products
 
 
 /* 420
-   ¦P¤W, ¦ı½Ğ¤@¨Ö¦C¥X¸Ó¨ÑÀ³°Ó¦WºÙ(CompanyName)¡B
-   Ápµ¸¹q¸Ü(Phone)¡BÁpµ¸¤H(ContactName)¦n¶Ü?
-   ¥t¥~, ¬Û¦P¨ÑÀ³°Óªº¸ê®Æ½Ğ¦C¦b¤@°_
+   åŒä¸Š, ä½†è«‹ä¸€ä½µåˆ—å‡ºè©²ä¾›æ‡‰å•†åç¨±(CompanyName)ã€
+   è¯çµ¡é›»è©±(Phone)ã€è¯çµ¡äºº(ContactName)å¥½å—?
+   å¦å¤–, ç›¸åŒä¾›æ‡‰å•†çš„è³‡æ–™è«‹åˆ—åœ¨ä¸€èµ·
  */ 
 select ProductID, ProductName as PN, p.SupplierID, CompanyName, Phone, ContactName 
   from products p join suppliers s
@@ -209,11 +209,11 @@ select ProductID, ProductName as PN, p.SupplierID, CompanyName, Phone, ContactNa
 
 
 /* 430
-   §Ú·Q¦C¥X¡u©Ò¦³¡v¨ÑÀ³°Ó¥Ø«e¦U¦Û´£¨Ñ§Ú­Ì­ş¨Ç²£«~¸ê®Æªº¹ï·Óªí,
-   ¥Ø«e¨S´£¨Ñ§Ú­Ì²£«~ªº¨ÑÀ³°Ó¤]­n¦C¥X
+   æˆ‘æƒ³åˆ—å‡ºã€Œæ‰€æœ‰ã€ä¾›æ‡‰å•†ç›®å‰å„è‡ªæä¾›æˆ‘å€‘å“ªäº›ç”¢å“è³‡æ–™çš„å°ç…§è¡¨,
+   ç›®å‰æ²’æä¾›æˆ‘å€‘ç”¢å“çš„ä¾›æ‡‰å•†ä¹Ÿè¦åˆ—å‡º
 
    <note>
-   ¤U«ü¥O«e, ½Ğ¥ı°õ¦æ¤U¦C«ü¥O:
+   ä¸‹æŒ‡ä»¤å‰, è«‹å…ˆåŸ·è¡Œä¸‹åˆ—æŒ‡ä»¤:
    -- begin --
    insert into suppliers
      (supplierID, CompanyName, ContactName, Phone)
@@ -230,7 +230,7 @@ select s.SupplierID, CompanyName, ProductID, ProductName
 
 
 /* 510
-  ½Ğ¦C¥X¡u¦³¶R 23 ¸¹²£«~, ¦Ó¥B¶R¶W¹L 20 ­Ó¡vªº­q³æ¡C
+  è«‹åˆ—å‡ºã€Œæœ‰è²· 23 è™Ÿç”¢å“, è€Œä¸”è²·è¶…é 20 å€‹ã€çš„è¨‚å–®ã€‚
  */ 
 select orderid, customerid from orders 
   where orderid in 
@@ -239,7 +239,7 @@ select orderid, customerid from orders
 
 
 /* 520
-  ½Ğ¦C¥X¥Ø«e¸ê®Æ®w³Ì«á¤@¤Ñ¦³¸g¤â­q³æ³B²zªº­û¤u²M³æ¡C
+  è«‹åˆ—å‡ºç›®å‰è³‡æ–™åº«æœ€å¾Œä¸€å¤©æœ‰ç¶“æ‰‹è¨‚å–®è™•ç†çš„å“¡å·¥æ¸…å–®ã€‚
 */
 select EmployeeID, FirstName, LastName from Employees
   where EmployeeID in 
@@ -250,8 +250,8 @@ select EmployeeID, FirstName, LastName from Employees
 
 
 /* 530
-  ½Ğ¦C¥X¦U¶µ²£«~ªºÃş§O¡B½s¸¹¡B«~¦W¡B³æ»ù¡B¸ÓÃş²£«~¥­§¡³æ»ù¡B
-  ³æ»ù»P²£«~¥­§¡³æ»ùªº¡u»ù®t¡v¡C
+  è«‹åˆ—å‡ºå„é …ç”¢å“çš„é¡åˆ¥ã€ç·¨è™Ÿã€å“åã€å–®åƒ¹ã€è©²é¡ç”¢å“å¹³å‡å–®åƒ¹ã€
+  å–®åƒ¹èˆ‡ç”¢å“å¹³å‡å–®åƒ¹çš„ã€Œåƒ¹å·®ã€ã€‚
  */ 
 select CategoryID, ProductID, UnitPrice, 
   (select Avg(UnitPrice) from products as i 
