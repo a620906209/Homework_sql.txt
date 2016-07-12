@@ -1,0 +1,17 @@
+create database homework;
+use homework;
+create table paymentsSchedule
+(
+  memeberID int auto_increment not null primary key,
+  name char(10) null,
+  pay varchar(10) null default '0',
+  outlay varchar(30) null default '0'
+  
+);
+
+
+alter table paymentsSchedule add comment varchar(50);
+  
+insert paymentsSchedule(name) values ('mike_chen');
+
+Update paymentsSchedule set name = 'john_chen',pay = '1000' where memeberID = 1;
